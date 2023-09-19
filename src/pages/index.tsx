@@ -11,6 +11,7 @@ import Steps from '@/common/components/organism/Steps'
 import Academy from '@/common/components/organism/Acadamy'
 import PartnerSupporters from '@/common/components/organism/PartnerSupporters'
 import Footer from '@/common/components/organism/Footer'
+import Description from '@/common/components/Description'
 
 export default function Home() {
   return (
@@ -32,9 +33,16 @@ export default function Home() {
           <Steps />
         </ContainerPage>
       </Box>
+
       <ContainerPage className='w-screen h-full xs:px-0 xs:py-8 lg:p-8 '>
         <Tokenomics />
       </ContainerPage>
+
+      <Box className='w-screen h-full xs:px-0 xs:py-8 lg:p-8 bg-[#1F2A45]'>
+        <ContainerPage>
+          <Description />
+        </ContainerPage>
+      </Box>
       <Box className='relative'>
         <ContainerPage>
           {/* <Academy /> */}

@@ -20,11 +20,11 @@ export default function HeroSite() {
                         <Stack direction='row' spacing={3} alignItems='cemter'>
                             {getUserInfo === undefined ?
                                 <Link href='/register'>
-                                    <Button variant='contained' size='large' className='font-bold text-[16px] rounded-[5px] py-3'>Get Started →</Button>
+                                    <Button variant='contained' size='large' className='font-bold text-[16px] rounded-[5px] py-3'>Sign Up Now →</Button>
                                 </Link>
                                 :
                                 <Link href='/#top-coins'>
-                                    <Button variant='contained' size='large' className='font-bold text-[16px] rounded-[5px] py-3'>Get Started →</Button>
+                                    <Button variant='contained' size='large' className='font-bold text-[16px] rounded-[5px] py-3'>Sign Up Now →</Button>
                                 </Link>
                             }
                             {/* <Link href='#'>
