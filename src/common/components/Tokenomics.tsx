@@ -9,9 +9,9 @@ import { TCoinItemProps } from '@/common/types/coin'
 export default function Tokenomics() {
     return (
         <Box component='section' marginBottom={-3} mx={4} >
-            <div className="inline-block align-middle">
+            <div className="inline-block align-middle w-full">
                 <Typography variant='h4' className='font-bold'>MemeBets Tokenomics</Typography>
-                <Box className="mt-4">
+                <Box className="mt-4 flex flex-col justify-center text-center w-full">
                     <div className="my-4">
                         <Typography variant='h5' className='font-semibold'>Total Supply</Typography>
                         <Typography variant='h6' className='font-normal text-[#CACAFF]'>420,690,000,000,000

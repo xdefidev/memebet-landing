@@ -35,8 +35,6 @@ export default function Footer() {
                                 <ButtonContained label='Trades Now' size='large' fullWidth className='py-3 capitalize text-[16px] rounded-[4px] font-bold' />
                             </Link>
                         } */}
-                    </Grid>
-                    <Grid item xs={12} md={6} lg={3} className='xs:text-start lg:text-end'>
                         <Typography variant='h5' className='font-bold mb-2'>
                             Pages
                         </Typography>
@@ -49,6 +47,20 @@ export default function Footer() {
                                 </>
                             )
                         })}
+                    </Grid>
+                    <Grid item xs={12} md={6} lg={3} className='xs:text-start lg:text-end'>
+                        {/* <Typography variant='h5' className='font-bold mb-2'>
+                            Pages
+                        </Typography>
+                        {menuItems.map(item => {
+                            return (
+                                <>
+                                    <Link href={item.link}>
+                                        <Typography variant='h6' className='hover:brightness-125 transition text-[20px]'>{item.label}</Typography>
+                                    </Link>
+                                </>
+                            )
+                        })} */}
                     </Grid>
                     <Grid item xs={12} md={6} lg={3} className='xs:text-start lg:text-center'>
                         <Typography variant='h5' className='font-bold mb-2'>

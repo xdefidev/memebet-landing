@@ -15,7 +15,7 @@ export default function HeroSite() {
                             Bets and Memes
                         </Typography>
                         <Typography variant='h3' className='text-[1.4rem] mb-4'>
-                            A Word-Class Gaming Platform that empowered to catch your best opportunities
+                            Bet with $MBETS and other popular cryptocurrencies. Play Crash, Classic Dice, Blackjack, Roulette, and more classic casino games right in your browser.
                         </Typography>
                         <Stack direction='row' spacing={3} alignItems='cemter'>
                             {getUserInfo === undefined ?
