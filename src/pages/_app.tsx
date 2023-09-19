@@ -8,7 +8,7 @@ let theme = createTheme({
   palette: {
     mode: 'dark',
     background: {
-      default: '#0F172A',
+      default: '#0e1423',
       paper: '#1F2A45'
     },
     primary: {
@@ -54,7 +54,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider theme={theme}>
       <Head>
-        <meta name="description" content="Bytrade - Cryptocurrency Exchange for Bitcoin, Etherium, Binance Coin and others." />
+        <meta name="description" content="Memebetsticker - Cryptocurrency Exchange for Bitcoin, Etherium, Binance Coin and others." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />
       </Head>
@@ -62,5 +62,5 @@ export default function App({ Component, pageProps }: AppProps) {
       <Component {...pageProps} />
     </ThemeProvider>
 
-  ) 
+  )
 }

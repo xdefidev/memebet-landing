@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Bytrade - Exchange Platform for Your Cryptocurrencies</title>
+        <title>Memebetsticker - Exchange Platform for Your Cryptocurrencies</title>
       </Head>
       <Appnav />
       <Box className='relative'>
@@ -33,7 +33,7 @@ export default function Home() {
       </Box>
       <Box className='relative'>
         <ContainerPage>
-          <Academy />
+          {/* <Academy /> */}
           <PartnerSupporters />
           <Footer />
         </ContainerPage>
