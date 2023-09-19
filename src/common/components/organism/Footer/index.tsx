@@ -73,6 +73,10 @@ export default function Footer() {
                             <Link href='https://t.me/MemeBetsCoin'>
                                 <TelegramIcon color='primary' fontSize='large' className='hover:brightness-125 transition' />
                             </Link>
+                            <Link href='https://x.com/MemeBetsCoin?t=byGhxOdV4ifNf9ir7iBlgg&s=09'>
+                                <TwitterIcon color='primary' fontSize='large' className='hover:brightness-125 transition' />
+                            </Link>
+
 
                         </Stack>
                     </Grid>

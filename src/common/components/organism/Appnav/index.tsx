@@ -162,5 +162,9 @@ export const MenuItems = [
         label: 'Telegram',
         link: 'https://t.me/MemeBetsCoin'
     },
+    {
+        label: "Twitter",
+        link: "https://x.com/MemeBetsCoin?t=byGhxOdV4ifNf9ir7iBlgg&s=09"
+    }
 
 ]
