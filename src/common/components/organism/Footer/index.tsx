@@ -12,6 +12,7 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 import PlaceIcon from '@mui/icons-material/Place';
 import CallIcon from '@mui/icons-material/Call';
 import EmailIcon from '@mui/icons-material/Email';
+import TelegramIcon from '@mui/icons-material/Telegram'
 import Cookies from 'js-cookie'
 
 export default function Footer() {
@@ -22,7 +23,7 @@ export default function Footer() {
             <Stack className='py-8'>
                 <Grid container columnSpacing={2} rowSpacing={4}>
                     <Grid item xs={12} md={6} lg={3}>
-                        <Typography variant='h5' className='font-bold mb-2'>
+                        {/* <Typography variant='h5' className='font-bold mb-2'>
                             Start earning today
                         </Typography>
                         {getUserInfo === undefined ?
@@ -33,7 +34,7 @@ export default function Footer() {
                             <Link href='/#top-coins'>
                                 <ButtonContained label='Trades Now' size='large' fullWidth className='py-3 capitalize text-[16px] rounded-[4px] font-bold' />
                             </Link>
-                        }
+                        } */}
                     </Grid>
                     <Grid item xs={12} md={6} lg={3} className='xs:text-start lg:text-end'>
                         <Typography variant='h5' className='font-bold mb-2'>
@@ -53,8 +54,8 @@ export default function Footer() {
                         <Typography variant='h5' className='font-bold mb-2'>
                             Community
                         </Typography>
-                        <Stack direction='row' spacing={1} justifyContent='center'>
-                            <Link href='#'>
+                        <Stack direction='row' spacing={1} justifyContent='left'>
+                            {/* <Link href='#'>
                                 <LinkedInIcon color='primary' fontSize='large' className='hover:brightness-125 transition' />
                             </Link>
                             <Link href='#'>
@@ -68,24 +69,28 @@ export default function Footer() {
                             </Link>
                             <Link href='#'>
                                 <YouTubeIcon color='primary' fontSize='large' className='hover:brightness-125 transition' />
+                            </Link> */}
+                            <Link href='https://t.me/MemeBetsCoin'>
+                                <TelegramIcon color='primary' fontSize='large' className='hover:brightness-125 transition' />
                             </Link>
+
                         </Stack>
                     </Grid>
                     <Grid item xs={12} md={6} lg={3}>
                         <Link href='/'>
                             <Stack direction='row' spacing={1} className='flex items-center text-lg mb-4' sx={{ display: 'flex', alignItems: 'center' }}>
-                                <Image src='/memebetsticker-logo.png' width={35} height={35} alt='Memebetsticker - Logo' />
+                                <Image src='/logo.jpeg' width={35} height={35} alt='Memebetsticker - Logo' className="rounded-full" />
                                 <Typography variant='h5' className='font-bold uppercase text-[35px]'>Memebetsticker</Typography>
                             </Stack>
                         </Link>
-                        <Stack direction='row' spacing={1} marginBottom={1}>
+                        {/* <Stack direction='row' spacing={1} marginBottom={1}>
                             <PlaceIcon fontSize='small' color='primary' />
                             <Typography variant='subtitle2'>Five Lamps Place, 1 Amiens Street, Dublin, New Jersey</Typography>
                         </Stack>
                         <Stack direction='row' spacing={1} marginBottom={1}>
                             <CallIcon fontSize='small' color='primary' />
                             <Typography variant='subtitle2'>+201 7612 812388</Typography>
-                        </Stack>
+                        </Stack> */}
                         <Stack direction='row' spacing={1} marginBottom={1}>
                             <EmailIcon fontSize='small' color='primary' />
                             <Typography variant='subtitle2'>memebetsticker@trade.com</Typography>

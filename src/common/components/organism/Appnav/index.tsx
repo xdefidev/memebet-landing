@@ -159,8 +159,8 @@ export const MenuItems = [
         link: '/'
     },
     {
-        label: 'Community',
-        link: '/'
+        label: 'Telegram',
+        link: 'https://t.me/MemeBetsCoin'
     },
 
 ]

@@ -23,7 +23,7 @@ export default function TopCoins() {
 
   const Games = [{ name: "Crash", image: "/crash.png" }, { name: "Classic Dice", image: "/classicdice.png" }, { name: "Wheel", image: "/wheel.png" }, { name: "Blackjack", image: "/blackjack.png" },]
   return (
-    <Box component='section' marginBottom={20} marginTop={10}>
+    <Box component='section' marginBottom={10} >
       <Box component='a' id='top-coins' className='relative -top-[120px]'></Box>
       <Stack direction='row' justifyContent='space-between'>
         <Typography variant='h4' className='font-bold'>Top Games</Typography>
@@ -34,7 +34,7 @@ export default function TopCoins() {
       <Grid container spacing={1}>
         {
           // eslint-disable-next-line react/jsx-key
-          Games.map((item) => <Grid item xs={12} md={3} marginTop={2} ><Image src={item.image} width={500} height={500} alt={''} className="rounded" /></Grid>)
+          Games.map((item) => <Grid item xs={6} md={3} marginTop={2} ><Image src={item.image} width={500} height={500} alt={''} className="rounded-md" /></Grid>)
         }
         {/* { cryptoData.length === 0 ? 
             Array.from({ length: 4 }).map((_, i) => (

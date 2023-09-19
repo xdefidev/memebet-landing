@@ -6,6 +6,7 @@ import ContainerPage from '@/common/components/atoms/ContainerPage'
 import HeroSite from '@/common/components/organism/HeroSite'
 import Features from '@/common/components/organism/Features'
 import TopCoins from '@/common/components/organism/TopCoins'
+import Tokenomics from '@/common/components/Tokenomics'
 import Steps from '@/common/components/organism/Steps'
 import Academy from '@/common/components/organism/Acadamy'
 import PartnerSupporters from '@/common/components/organism/PartnerSupporters'
@@ -31,6 +32,9 @@ export default function Home() {
           <Steps />
         </ContainerPage>
       </Box>
+      <ContainerPage className='w-screen h-full xs:px-0 xs:py-8 lg:p-8 '>
+        <Tokenomics />
+      </ContainerPage>
       <Box className='relative'>
         <ContainerPage>
           {/* <Academy /> */}
