@@ -54,7 +54,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider theme={theme}>
       <Head>
-        <meta name="description" content="Memebetsticker - Cryptocurrency Exchange for Bitcoin, Etherium, Binance Coin and others." />
+        <meta name="description" content="Memebets - Cryptocurrency Exchange for Bitcoin, Etherium, Binance Coin and others." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />
       </Head>

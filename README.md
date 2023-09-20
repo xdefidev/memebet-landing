@@ -4,7 +4,7 @@ Welcome to the ByTrade Landing Page repository! This is a website created to sho
 
 ## Installation
 
-There is no need for installation as this is a website hosted online. You can access it by visiting https://memebetsticker.vercel.app/.
+There is no need for installation as this is a website hosted online. You can access it by visiting https://memebets.vercel.app/.
 
 ## Run Locally
 
@@ -13,13 +13,13 @@ If you want to run this project on your local system, please clone or fork this 
 Clone the project
 
 ```bash
-  git clone https://github.com/arricodyanto/memebetsticker-landing.git
+  git clone https://github.com/arricodyanto/memebets-landing.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd memebetsticker-landing
+  cd memebets-landing
 ```
 
 Install dependencies
@@ -57,6 +57,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Telegram Notifier
 
-When a new user registered, the api will send a notification to a Telegram Group Chat. Please join to https://t.me/memebetstickerNotifier to see the notifications' alert.
+When a new user registered, the api will send a notification to a Telegram Group Chat. Please join to https://t.me/memebetsNotifier to see the notifications' alert.
 
 Hope you'll enjoy it!

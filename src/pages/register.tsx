@@ -17,7 +17,7 @@ export default function Register() {
     return (
         <>
             <Head>
-                <title>Register - Memebetsticker</title>
+                <title>Register - Memebets</title>
             </Head>
             <Box className='relative'>
                 <BackgorundGradient />
@@ -31,12 +31,12 @@ export default function Register() {
                                     <Stack marginBottom={2}>
                                         <Link href='/' className='w-fit mb-4'>
                                             <Stack direction='row' spacing={1} className='flex items-center text-lg hover:brightness-110'>
-                                                <Image src='/memebetsticker-logo.png' width={35} height={35} alt='Memebetsticker - Logo' />
-                                                <Typography variant='h5' className='font-bold uppercase text-[30px] text-text-primary'>Memebetsticker</Typography>
+                                                <Image src='/memebets-logo.png' width={35} height={35} alt='Memebets - Logo' />
+                                                <Typography variant='h5' className='font-bold uppercase text-[30px] text-text-primary'>Memebets</Typography>
                                             </Stack>
                                         </Link>
                                         <Typography variant='h6' className='font-bold text-[24px]'>Hello Traders!</Typography>
-                                        <Typography variant='body1' className=''>Welcome to Memebetsticker! Please make a new account to start catch your opportunities</Typography>
+                                        <Typography variant='body1' className=''>Welcome to Memebets! Please make a new account to start catch your opportunities</Typography>
                                     </Stack>
                                     <RegisterForm />
                                 </Grid>

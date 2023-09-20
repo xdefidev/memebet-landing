@@ -62,7 +62,7 @@ export default function Appnav() {
                                                 <Link href='/'>
                                                     <Stack direction='row' spacing={1} className='flex items-center text-lg' sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                                                         <Image src='/logo.jpeg' width={50} height={50} alt='MemeBetsCoin - Logo' style={{ borderRadius: "30px" }} />
-                                                        <Typography variant='h5' className='font-bold uppercase'>Meme Bets Ticker</Typography>
+                                                        <Typography variant='h5' className='font-bold uppercase'>Meme Bets </Typography>
                                                     </Stack>
                                                 </Link>
                                                 <Divider className='pt-5 border-gray-600' />
@@ -117,7 +117,7 @@ export default function Appnav() {
                                 <Link href='/'>
                                     <Stack direction='row' spacing={1} className='flex items-center text-lg'>
                                         <Image src='/logo.jpeg' width={50} height={50} alt='MemeBetsCoin - Logo' style={{ borderRadius: "30px" }} />
-                                        <Typography variant='h5' className='font-bold uppercase'>Meme Bets Ticker</Typography>
+                                        <Typography variant='h5' className='font-bold uppercase'>Meme Bets </Typography>
                                     </Stack>
                                 </Link>
                             </Grid>

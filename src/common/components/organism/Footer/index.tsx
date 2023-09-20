@@ -95,8 +95,8 @@ export default function Footer() {
                     <Grid item xs={12} md={6} lg={3}>
                         <Link href='/'>
                             <Stack direction='row' spacing={1} className='flex items-center text-lg mb-4' sx={{ display: 'flex', alignItems: 'center' }}>
-                                <Image src='/logo.jpeg' width={35} height={35} alt='Memebetsticker - Logo' className="rounded-full" />
-                                <Typography variant='h5' className='font-bold uppercase text-[35px]'>Memebetsticker</Typography>
+                                <Image src='/logo.jpeg' width={35} height={35} alt='Memebets - Logo' className="rounded-full" />
+                                <Typography variant='h5' className='font-bold uppercase text-[35px]'>Memebets</Typography>
                             </Stack>
                         </Link>
                         {/* <Stack direction='row' spacing={1} marginBottom={1}>
@@ -109,14 +109,14 @@ export default function Footer() {
                         </Stack> */}
                         <Stack direction='row' spacing={1} marginBottom={1}>
                             <EmailIcon fontSize='small' color='primary' />
-                            <Typography variant='subtitle2'>memebetsticker@trade.com</Typography>
+                            <Typography variant='subtitle2'>memebets@trade.com</Typography>
                         </Stack>
                     </Grid>
                 </Grid>
             </Stack>
             <Stack className='py-4'>
                 <Divider light className='border-gray-600 mb-3' />
-                <Typography variant='subtitle1' className='text-center text-text-secondary'>© 2023 <Link href='/' className='hover:text-primary'>Memebetsticker</Link> - All Rights Reserved</Typography>
+                <Typography variant='subtitle1' className='text-center text-text-secondary'>© 2023 <Link href='/' className='hover:text-primary'>Memebets</Link> - All Rights Reserved</Typography>
             </Stack>
         </>
     )

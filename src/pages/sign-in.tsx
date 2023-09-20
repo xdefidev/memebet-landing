@@ -11,7 +11,7 @@ export default function SignIn() {
     return (
         <>
             <Head>
-                <title>Login - Memebetsticker</title>
+                <title>Login - Memebets</title>
             </Head>
             <Box className='relative'>
                 <BackgorundGradient />
@@ -24,12 +24,12 @@ export default function SignIn() {
                                 <Stack marginBottom={2}>
                                     <Link href='/' className='w-fit mb-4'>
                                         <Stack direction='row' spacing={1} className='flex items-center text-lg hover:brightness-110'>
-                                            <Image src='/memebetsticker-logo.png' width={35} height={35} alt='Memebetsticker - Logo' />
-                                            <Typography variant='h5' className='font-bold uppercase text-[30px] text-text-primary'>Memebetsticker</Typography>
+                                            <Image src='/memebets-logo.png' width={35} height={35} alt='Memebets - Logo' />
+                                            <Typography variant='h5' className='font-bold uppercase text-[30px] text-text-primary'>Memebets</Typography>
                                         </Stack>
                                     </Link>
                                     <Typography variant='h6' className='font-bold text-[24px]'>Hello!</Typography>
-                                    <Typography variant='body1' className=''>Welcome to Memebetsticker! Please Log in to your account to start earning!</Typography>
+                                    <Typography variant='body1' className=''>Welcome to Memebets! Please Log in to your account to start earning!</Typography>
                                 </Stack>
                                 <LoginForm />
                             </Grid>

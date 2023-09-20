@@ -39,7 +39,7 @@ export default function HeroSite() {
                 </Grid>
                 <Grid item xs={12} md={6} className='grid'>
                     <Box className='xs:w-3/4 lg:w-[55%] xl:w-[73%] justify-self-center md:mt-[4rem] lg:mt-[8rem]' display={{ xs: 'none', md: 'block' }}>
-                        <Image src='/Hero.png' width={100} height={100} alt='Memebetsticker Hero' layout='responsive' className='xs:-translate-y-6 lg:-translate-y-[3.6rem]' />
+                        <Image src='/Hero.png' width={100} height={100} alt='Memebets Hero' layout='responsive' className='xs:-translate-y-6 lg:-translate-y-[3.6rem]' />
                     </Box>
                 </Grid>
             </Grid>

@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Memebetsticker - Casino Platform</title>
+        <title>Memebets - Casino Platform</title>
       </Head>
       <Appnav />
       <Box className='relative'>
