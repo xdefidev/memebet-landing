@@ -89,7 +89,7 @@ export default function Appnav() {
                                                                     {/* <Link href='/register'>
                                                                         <ButtonContained label='Register' />
                                                                     </Link> */}
-                                                                    <Link href='/sign-in'>
+                                                                    <Link href='https://play.memebetscoin.com/'>
                                                                         <ButtonOutlined label='Dashboard' />
                                                                     </Link>
                                                                 </Stack>
@@ -135,7 +135,7 @@ export default function Appnav() {
                                     {getUserInfo === undefined ?
                                         <Stack direction='row' spacing={{ md: 2, lg: 4 }}>
                                             {/* <ButtonContained label='Register' onClick={() => router.push('/register')} /> */}
-                                            <ButtonOutlined label='Dashboard' onClick={() => router.push('/sign-in')} />
+                                            <ButtonOutlined label='Dashboard' onClick={() => router.push('https://play.memebetscoin.com/')} />
                                         </Stack>
                                         :
                                         <Stack direction='row' spacing={{ md: 2, lg: 4 }}>
