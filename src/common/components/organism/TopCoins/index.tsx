@@ -14,9 +14,9 @@ export default function TopCoins() {
       const data = await response.json()
       setCryptoData(data)
     }
-    fetchData()
+    // fetchData()
     const interval = setInterval(() => {
-      fetchData();
+      // fetchData();
     }, 60000);
     return () => clearInterval(interval)
   }, [])
