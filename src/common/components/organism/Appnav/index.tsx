@@ -90,7 +90,7 @@ export default function Appnav() {
                                                                         <ButtonContained label='Register' />
                                                                     </Link> */}
                                                                     <Link href='/sign-in'>
-                                                                        <ButtonOutlined label='Play' />
+                                                                        <ButtonOutlined label='Dashboard' />
                                                                     </Link>
                                                                 </Stack>
                                                             </>
@@ -135,7 +135,7 @@ export default function Appnav() {
                                     {getUserInfo === undefined ?
                                         <Stack direction='row' spacing={{ md: 2, lg: 4 }}>
                                             {/* <ButtonContained label='Register' onClick={() => router.push('/register')} /> */}
-                                            <ButtonOutlined label='Play' onClick={() => router.push('/sign-in')} />
+                                            <ButtonOutlined label='Dashboard' onClick={() => router.push('/sign-in')} />
                                         </Stack>
                                         :
                                         <Stack direction='row' spacing={{ md: 2, lg: 4 }}>
