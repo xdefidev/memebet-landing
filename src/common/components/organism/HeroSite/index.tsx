@@ -17,16 +17,17 @@ export default function HeroSite() {
                         <Typography variant='h3' className='text-[1.4rem] mb-4'>
                             Bet with $MBETS and other popular cryptocurrencies. Play Crash, Classic Dice, Blackjack, Roulette, and more classic casino games right in your browser.
                         </Typography>
-                        <Stack direction='row' spacing={3} alignItems='cemter'>
+                        <Stack direction='column' spacing={1} alignItems='left'>
                             {getUserInfo === undefined ?
-                                <Link href='/register'>
+                                <Link href='https://play.memebetscoin.com/'>
                                     <Button variant='contained' size='large' className='font-bold text-[16px] rounded-[5px] py-3'>Sign Up Now →</Button>
                                 </Link>
                                 :
-                                <Link href='/#top-coins'>
+                                <Link href='https://play.memebetscoin.com/'>
                                     <Button variant='contained' size='large' className='font-bold text-[16px] rounded-[5px] py-3'>Sign Up Now →</Button>
                                 </Link>
                             }
+                            <Image src="/eth.png" width={30} height={30} />
                             {/* <Link href='#'>
                                 <Image src='/appstore.png' width={35} height={35} alt='Get on Apple Store' className='hover:brightness-75 transition' />
                             </Link>
