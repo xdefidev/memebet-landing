@@ -27,7 +27,7 @@ export default function TopCoins() {
       <Box component='a' id='top-coins' className='relative -top-[120px]'></Box>
       <Stack direction='row' justifyContent='space-between'>
         <Typography variant='h4' className='font-bold'>Top Games</Typography>
-        <Link href='/'>
+        <Link href='https://play.memebetscoin.com/'>
           <Typography variant='body1' className='text-lg font-bold hover:text-primary transition'>See Games →</Typography>
         </Link>
       </Stack>
