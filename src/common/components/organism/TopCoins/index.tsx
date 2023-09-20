@@ -21,7 +21,7 @@ export default function TopCoins() {
     return () => clearInterval(interval)
   }, [])
 
-  const Games = [{ name: "Crash", image: "/crash.png" }, { name: "Classic Dice", image: "/classicdice.png" }, { name: "Wheel", image: "/wheel.png" }, { name: "Blackjack", image: "/blackjack.png" },]
+  const Games = [{ name: "Crash", image: "/crash.png", link: "https://play.memebetscoin.com/crash" }, { name: "Classic Dice", image: "/classicdice.png", link: "https://play.memebetscoin.com/crashhttps://play.memebetscoin.com/classic-dice" }, { name: "Wheel", image: "/wheel.png", link: "https://play.memebetscoin.com/wheel" }, { name: "Blackjack", image: "/blackjack.png", link: "https://play.memebetscoin.com/blackjack" },]
   return (
     <Box component='section' marginBottom={10} >
       <Box component='a' id='top-coins' className='relative -top-[120px]'></Box>
@@ -34,7 +34,7 @@ export default function TopCoins() {
       <Grid container spacing={1}>
         {
           // eslint-disable-next-line react/jsx-key
-          Games.map((item) => <Grid item xs={6} md={3} marginTop={2} ><Image src={item.image} width={500} height={500} alt={''} className="rounded-md" /></Grid>)
+          Games.map((item) => <Grid item xs={6} md={3} marginTop={2} ><Link href={item.link}><Image src={item.image} width={500} height={500} alt={''} className="rounded-md" /></Link></Grid>)
         }
         {/* { cryptoData.length === 0 ? 
             Array.from({ length: 4 }).map((_, i) => (
