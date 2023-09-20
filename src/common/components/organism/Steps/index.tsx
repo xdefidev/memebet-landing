@@ -3,6 +3,7 @@ import { Box, Grid, Paper, Stack, Typography } from '@mui/material'
 import React from 'react'
 import TabsContainerVer from '../../atoms/TabsContainerVer'
 import TabItem from '../../atoms/TabItem'
+import Image from 'next/image'
 
 export default function Steps() {
     const [value, setValue] = React.useState('1')
@@ -25,13 +26,13 @@ export default function Steps() {
                     <Grid item xs={12} md={6}>
                         <Box className='h-full bg-[#0F172A] rounded-none'>
                             <TabPanel value='1' className='p-0 xs:w-full xs:h-[200px] md:w-full md:h-[315px]'>
-                                <iframe width='100%' height='100%' src="https://www.youtube.com/embed/m1CyUajtlr0?controls=0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                                <Image src="/banner/1.png" width={400} height={500} />
                             </TabPanel>
                             <TabPanel value='2' className='p-0 xs:w-full xs:h-[200px] md:w-full md:h-[315px]'>
-                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/7eHZm9gja6k?controls=0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                                <Image src="/banner/2.png" width={400} height={500} />
                             </TabPanel>
                             <TabPanel value='3' className='p-0 xs:w-full xs:h-[200px] md:w-full md:h-[315px]'>
-                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/qjqEPW5lJKw?controls=0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                                <Image src="/banner/3.png" width={400} height={500} />
                             </TabPanel>
                         </Box>
                     </Grid>
