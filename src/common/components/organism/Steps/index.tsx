@@ -26,13 +26,13 @@ export default function Steps() {
                     <Grid item xs={12} md={6}>
                         <Box className='h-full bg-[#0F172A] rounded-none justify-center align-middle' >
                             <TabPanel value='1' className='p-0 xs:w-full xs:h-[200px] md:w-full md:h-[315px]'>
-                                <Image src="/banner/1.png" width={400} height={500} className="w-full h-full" />
+                                <Image src="/banner/1.png" width={400} height={500} className="w-full h-full" alt="" />
                             </TabPanel>
                             <TabPanel value='2' className='p-0 xs:w-full xs:h-[200px] md:w-full md:h-[315px]'>
-                                <Image src="/banner/2.png" width={400} height={500} className="w-full h-full" />
+                                <Image src="/banner/2.png" width={400} height={500} className="w-full h-full" alt="" />
                             </TabPanel>
                             <TabPanel value='3' className='p-0 xs:w-full xs:h-[200px] md:w-full md:h-[315px]'>
-                                <Image src="/banner/3.png" width={400} height={500} className="w-full h-full" />
+                                <Image src="/banner/3.png" width={400} height={500} className="w-full h-full" alt="" />
                             </TabPanel>
                         </Box>
                     </Grid>
