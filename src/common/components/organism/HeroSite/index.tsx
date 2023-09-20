@@ -27,6 +27,7 @@ export default function HeroSite() {
                                     <Button variant='contained' size='large' className='font-bold text-[16px] rounded-[5px] py-3'>Sign Up Now →</Button>
                                 </Link>
                             }
+                            // eslint-disable-next-line jsx-a11y/alt-text
                             <Image src="/eth.png" width={30} height={30} />
                             {/* <Link href='#'>
                                 <Image src='/appstore.png' width={35} height={35} alt='Get on Apple Store' className='hover:brightness-75 transition' />
