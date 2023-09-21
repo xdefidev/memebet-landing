@@ -30,7 +30,7 @@ export default function Home() {
         <TopCoins />
       </ContainerPage>
       <ContainerPage>
-        <Image src="/gif1.gif" width={500} height={500} className="w-full py-4" alt="" />
+        <Image src="/gif1.gif" width={500} height={500} className="w-full py-4" alt="" loading="lazy" />
       </ContainerPage>
       <Box className='w-screen h-full xs:px-0 xs:py-8 lg:p-8 bg-[#1F2A45]'>
         <ContainerPage>
@@ -48,7 +48,7 @@ export default function Home() {
         </ContainerPage>
       </Box>
       <ContainerPage>
-        <Image src="/gif2.gif" width={500} height={500} className="w-full py-4" alt="" />
+        <Image src="/gif2.gif" width={500} height={500} className="w-full py-4" alt="" loading="lazy" />
       </ContainerPage>
 
       <Box className='relative'>
