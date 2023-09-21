@@ -8,8 +8,8 @@ import { TCoinItemProps } from '@/common/types/coin'
 
 export default function Tokenomics() {
     return (
-        <Box component='section' marginBottom={-3} mx={4} >
-            <div className="inline-block align-middle w-full">
+        <Box component='section' marginBottom={-3} mx={4}  >
+            <div className="inline-block align-middle w-full my-20">
                 <Typography variant='h4' className='font-bold'>MemeBets Tokenomics</Typography>
                 <Box className="mt-4 flex flex-col justify-center text-center w-full">
                     <div className="my-4">

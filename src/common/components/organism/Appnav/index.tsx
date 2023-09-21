@@ -180,6 +180,15 @@ export const MenuItems = [
         link: '/'
     },
     {
+        label: 'Get Started',
+        link: '#get-started'
+    },
+    {
+        label: 'Tokenomics',
+        link: '#Tokenomics'
+    },
+
+    {
         label: 'Telegram',
         link: 'https://t.me/MemeBetsCoin'
     },

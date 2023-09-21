@@ -32,13 +32,13 @@ export default function Home() {
       <ContainerPage>
         <Image src="/gif1.gif" width={500} height={500} className="w-full py-4" alt="" loading="lazy" />
       </ContainerPage>
-      <Box className='w-screen h-full xs:px-0 xs:py-8 lg:p-8 bg-[#1F2A45]'>
-        <ContainerPage>
+      <Box className='w-screen h-full xs:px-0 xs:py-8 lg:p-8 bg-[#1F2A45]' id="get-started">
+        <ContainerPage  >
           <Steps />
         </ContainerPage>
       </Box>
 
-      <ContainerPage className='w-screen h-full xs:px-0 xs:py-8 lg:p-8 '>
+      <ContainerPage className='w-screen h-full xs:px-0 xs:py-8 lg:p-8 ' id="Tokenomics" >
         <Tokenomics />
       </ContainerPage>
 

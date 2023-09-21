@@ -11,8 +11,8 @@ export default function Steps() {
         setValue(newValue);
     }
     return (
-        <Box component='section'>
-            <Box component='a' id='steps' className='relative xs:-top-[190px] lg:-top-[350px]'></Box>
+        <Box component='section' className="my-20">
+            <Box component='a' id='steps' className='relative xs:-top-[190px] lg:-top-[350px] '></Box>
             <Typography variant='h4' className='font-bold mb-6'>Get Started in 3 Steps</Typography>
             <Grid container spacing={0} rowSpacing={2}>
                 <TabContext value={value}>
