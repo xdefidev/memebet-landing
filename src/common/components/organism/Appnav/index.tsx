@@ -53,8 +53,8 @@ export default function Appnav() {
     })
 
     function onCopyCall() {
-        setState({ copied: true });
-        // () => setInterval(() => setState({ copied: false }, 3000));
+        setState({ copied: true, value: '0x4cAED4056C99B9EFcD2C85ecd34Ad3F7b2d09544', });
+        // () => setInterval(() => setState({ copied: false, value: '0x4cAED4056C99B9EFcD2C85ecd34Ad3F7b2d09544', }, 3000));
     }
 
     return (
