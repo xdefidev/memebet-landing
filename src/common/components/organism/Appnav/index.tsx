@@ -54,7 +54,7 @@ export default function Appnav() {
 
     function onCopyCall() {
         setState({ copied: true });
-        // setInterval(() => setState({ copied: false }, 3000));
+        // () => setInterval(() => setState({ copied: false }, 3000));
     }
 
     return (
