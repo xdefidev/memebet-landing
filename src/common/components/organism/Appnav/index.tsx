@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { AppBar, Box, Button, Divider, Drawer, Grid, List, ListItem, ListItemButton, ListItemIcon, ListItemText, Stack, Toolbar, Typography, useScrollTrigger } from '@mui/material';
 import Link from 'next/link';
 import ContainerPage from '../../atoms/ContainerPage';
@@ -10,6 +10,7 @@ import ButtonOutlined from '../../atoms/ButtonOutlined';
 import { handleLogOut } from '@/common/utils/logout';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import { useRouter } from 'next/router';
+import { CopyToClipboard } from 'react-copy-to-clipboard';
 
 // Changes on Scroll
 function ChangesOnScroll(props: any) {
@@ -46,11 +47,29 @@ export default function Appnav() {
             }
     const getUserInfo = Cookies.get('loginInfo')
     const router = useRouter()
+    const [state, setState] = useState({
+        value: '0x4cAED4056C99B9EFcD2C85ecd34Ad3F7b2d09544',
+        copied: false,
+    })
+
+    function onCopyCall() {
+        setState({ copied: true });
+        // setInterval(() => setState({ copied: false }, 3000));
+    }
+
     return (
         <ChangesOnScroll>
+
             <AppBar sx={{ backgroundColor: trigger ? "#0F172A" : 'transparent', boxShadow: trigger ? 2 : 0, borderBottomColor: '#363636', borderBottomWidth: '1px', }} className='transition-all duration-700 ease-in-out'>
+                <Grid item xs={8} className='justify-center'><p className="flex justify-center bg-black text-white py-2 text-xs sm:text-sm"> Contract: &nbsp;
+                    <CopyToClipboard text={state.value}
+                        onCopy={onCopyCall}>
+                        <button > {state.copied ? "copied!" : state.value}</button>
+                    </CopyToClipboard></p></Grid>
                 <Toolbar sx={{ height: trigger ? { xs: 75, md: 85, lg: 75 } : { xs: 65, md: 80, lg: 60 } }} className='transition-all duration-700 ease-in-out'>
+
                     <ContainerPage disableGutters>
+
                         <Grid container spacing={1} alignItems='center' className='relative' justifyContent='space-between'>
                             <Grid item xs={2} sx={{ display: { xs: 'flex', md: 'none' } }}>
                                 {(['left'] as const).map((anchor) => (
@@ -113,7 +132,9 @@ export default function Appnav() {
                                     </React.Fragment>
                                 ))}
                             </Grid>
+
                             <Grid item xs={8} className='justify-center'>
+
                                 <Link href='/'>
                                     <Stack direction='row' spacing={1} className='flex items-center text-lg'>
                                         <Image src='/logo.jpeg' width={50} height={50} alt='MemeBetsCoin - Logo' style={{ borderRadius: "30px" }} />
@@ -149,7 +170,7 @@ export default function Appnav() {
                     </ContainerPage>
                 </Toolbar>
             </AppBar>
-        </ChangesOnScroll>
+        </ChangesOnScroll >
     )
 }
 
