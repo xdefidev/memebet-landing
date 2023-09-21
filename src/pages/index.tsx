@@ -12,6 +12,7 @@ import Academy from '@/common/components/organism/Acadamy'
 import PartnerSupporters from '@/common/components/organism/PartnerSupporters'
 import Footer from '@/common/components/organism/Footer'
 import Description from '@/common/components/Description'
+import Image from "next/image"
 
 export default function Home() {
   return (
@@ -28,6 +29,9 @@ export default function Home() {
         <Features />
         <TopCoins />
       </ContainerPage>
+      <ContainerPage>
+        <Image src="/gif1.gif" width={500} height={500} className="w-full py-4" alt="" />
+      </ContainerPage>
       <Box className='w-screen h-full xs:px-0 xs:py-8 lg:p-8 bg-[#1F2A45]'>
         <ContainerPage>
           <Steps />
@@ -43,6 +47,10 @@ export default function Home() {
           <Description />
         </ContainerPage>
       </Box>
+      <ContainerPage>
+        <Image src="/gif2.gif" width={500} height={500} className="w-full py-4" alt="" />
+      </ContainerPage>
+
       <Box className='relative'>
         <ContainerPage>
           {/* <Academy /> */}
